@@ -27,11 +27,14 @@ citation: |
     title = {Lunarness Fashion Data Observatory 2026},
     year = {2026},
     version = {1.0},
+    doi = {10.5281/zenodo.22131190},
     url = {https://lunarness.com/pages/fashion-statistics-observatory}
   }
 ---
 
 # Lunarness Fashion Data Observatory 2026
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22131190.svg)](https://doi.org/10.5281/zenodo.22131190)
 
 This package is the machine-readable companion to the [Lunarness Fashion Data Observatory 2026](https://lunarness.com/pages/fashion-statistics-observatory). It combines a small set of cited public findings about Fashion Week media attention, historical event attendance, online fashion behavior and textile circularity with clearly labeled arithmetic derivations.
 
@@ -73,9 +76,9 @@ The package is designed for publication on Hugging Face Datasets, GitHub and a D
 
 Preferred short citation:
 
-> Lunarness Editorial Team (2026). *Lunarness Fashion Data Observatory 2026* (Version 1.0). https://lunarness.com/pages/fashion-statistics-observatory
+> Lunarness Editorial Team (2026). *Lunarness Fashion Data Observatory 2026* (Version 1.0). https://doi.org/10.5281/zenodo.22131190
 
-After a DOI has been minted, add the DOI to `CITATION.cff`, `.zenodo.json`, the canonical web page and every distribution copy. Use one DOI-backed release as the citation authority instead of minting unrelated DOIs for identical copies.
+The Zenodo DOI above is the primary archived citation. Distribution copies should retain the same DOI and canonical Lunarness URL instead of minting unrelated identifiers for identical content.
 
 ## Licensing
 

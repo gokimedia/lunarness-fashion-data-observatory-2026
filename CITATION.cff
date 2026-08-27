@@ -3,6 +3,7 @@ message: "If you use this dataset or its original calculations, please cite the 
 title: "Lunarness Fashion Data Observatory 2026"
 type: dataset
 version: "1.0"
+doi: "10.5281/zenodo.22131190"
 date-released: 2026-08-27
 authors:
   - name: "Lunarness Editorial Team"
