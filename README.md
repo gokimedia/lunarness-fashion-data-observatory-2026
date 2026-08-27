@@ -38,7 +38,12 @@ citation: |
 
 This package is the machine-readable companion to the [Lunarness Fashion Data Observatory 2026](https://lunarness.com/pages/fashion-statistics-observatory). It combines a small set of cited public findings about Fashion Week media attention, historical event attendance, online fashion behavior and textile circularity with clearly labeled arithmetic derivations.
 
-The package is designed for publication on Hugging Face Datasets, GitHub and a DOI-issuing research repository such as Zenodo. The Lunarness page is the canonical editorial presentation; repository copies should link back to it using the URL above.
+The Lunarness page is the canonical editorial presentation. The same versioned package is distributed through the following research and data platforms, with one shared Zenodo DOI:
+
+- [Zenodo record](https://zenodo.org/records/22131190)
+- [GitHub repository](https://github.com/gokimedia/lunarness-fashion-data-observatory-2026)
+- [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/lunarness-fashion-data-observatory-2026)
+- [Kaggle dataset](https://www.kaggle.com/datasets/morrispoint/lunarness-fashion-data-observatory-2026)
 
 ## Files
 

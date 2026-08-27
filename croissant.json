@@ -12,7 +12,8 @@
   "sameAs": [
     "https://zenodo.org/records/22131190",
     "https://huggingface.co/datasets/FoodSecuriry/lunarness-fashion-data-observatory-2026",
-    "https://github.com/gokimedia/lunarness-fashion-data-observatory-2026"
+    "https://github.com/gokimedia/lunarness-fashion-data-observatory-2026",
+    "https://www.kaggle.com/datasets/morrispoint/lunarness-fashion-data-observatory-2026"
   ],
   "datePublished": "2026-08-27",
   "version": "1.0",
