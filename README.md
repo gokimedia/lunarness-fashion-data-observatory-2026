@@ -1,6 +1,6 @@
 ---
 license: other
-license_name: CC-BY-4.0-derived-analysis
+license_name: cc-by-4.0-derived-analysis
 license_link: https://creativecommons.org/licenses/by/4.0/
 language:
   - en
