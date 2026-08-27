@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset or its original calculations, please cite the canonical Lunarness release and the underlying source for each metric."
+title: "Lunarness Fashion Data Observatory 2026"
+type: dataset
+version: "1.0"
+date-released: 2026-08-27
+authors:
+  - name: "Lunarness Editorial Team"
+publisher:
+  name: "Lunarness"
+url: "https://lunarness.com/pages/fashion-statistics-observatory"
+license: CC-BY-4.0
+keywords:
+  - fashion statistics
+  - Fashion Week
+  - media impact value
+  - fashion ecommerce
+  - textile circularity

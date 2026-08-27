@@ -1,0 +1,27 @@
+{
+  "title": "Lunarness Fashion Data Observatory 2026",
+  "description": "A compact, source-led dataset and editorial methodology covering Fashion Week media attention, historical event attendance, online fashion behavior and textile circularity. The package contains only transparent derived calculations and small cited observations; it does not redistribute source databases.",
+  "upload_type": "dataset",
+  "publication_date": "2026-08-27",
+  "version": "1.0",
+  "creators": [
+    {"name": "Lunarness Editorial Team"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "fashion statistics",
+    "Fashion Week",
+    "fashion ecommerce",
+    "media impact value",
+    "textile circularity",
+    "alternative fashion"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://lunarness.com/pages/fashion-statistics-observatory",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Lunarness original commentary, calculations and data structure are CC BY 4.0. Third-party facts remain subject to the cited source terms."
+}

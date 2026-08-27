@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@language": "en",
+    "sc": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/"
+  },
+  "@type": "sc:Dataset",
+  "name": "Lunarness Fashion Data Observatory 2026",
+  "description": "A source-led tabular release covering Fashion Week media attention, online fashion behavior and textile circularity.",
+  "url": "https://lunarness.com/pages/fashion-statistics-observatory",
+  "datePublished": "2026-08-27",
+  "version": "1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["fashion", "Fashion Week", "ecommerce", "circularity", "media impact"],
+  "creator": {"@type": "sc:Organization", "name": "Lunarness Editorial Team"},
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "data/fashion_observatory_2026.csv",
+      "name": "fashion_observatory_2026.csv",
+      "contentUrl": "data/fashion_observatory_2026.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "data/fashion_observatory_2026.json",
+      "name": "fashion_observatory_2026.json",
+      "contentUrl": "data/fashion_observatory_2026.json",
+      "encodingFormat": "application/json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "name": "fashion_observatory_metrics",
+      "field": [
+        {"@type": "cr:Field", "name": "metric_id", "dataType": "sc:Text", "source": {"fileObject": {"@id": "data/fashion_observatory_2026.csv"}, "extract": {"column": "metric_id"}}},
+        {"@type": "cr:Field", "name": "topic", "dataType": "sc:Text", "source": {"fileObject": {"@id": "data/fashion_observatory_2026.csv"}, "extract": {"column": "topic"}}},
+        {"@type": "cr:Field", "name": "value", "dataType": "sc:Text", "source": {"fileObject": {"@id": "data/fashion_observatory_2026.csv"}, "extract": {"column": "value"}}},
+        {"@type": "cr:Field", "name": "unit", "dataType": "sc:Text", "source": {"fileObject": {"@id": "data/fashion_observatory_2026.csv"}, "extract": {"column": "unit"}}},
+        {"@type": "cr:Field", "name": "source_url", "dataType": "sc:URL", "source": {"fileObject": {"@id": "data/fashion_observatory_2026.csv"}, "extract": {"column": "source_url"}}}
+      ]
+    }
+  ]
+}
