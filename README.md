@@ -45,6 +45,14 @@ The Lunarness page is the canonical editorial presentation. The same versioned p
 - [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/lunarness-fashion-data-observatory-2026)
 - [Kaggle dataset](https://www.kaggle.com/datasets/morrispoint/lunarness-fashion-data-observatory-2026)
 
+## Audio companion
+
+The [Lunarness Fashion Data Briefing](https://rss.com/podcasts/lunarness-fashion-data-briefing/) is the official audio companion to this release. Its source-led episodes explain selected Observatory findings without replacing the dataset, source ledger or DOI record.
+
+- [Official podcast page](https://rss.com/podcasts/lunarness-fashion-data-briefing/)
+- [Open podcast RSS feed](https://media.rss.com/lunarness-fashion-data-briefing/feed.xml)
+- [Apple Podcasts listing](https://podcasts.apple.com/us/podcast/lunarness-fashion-data-briefing/id6805995146)
+
 ## Files
 
 - `data/fashion_observatory_2026.csv`: flat, row-level release with source and comparability fields.

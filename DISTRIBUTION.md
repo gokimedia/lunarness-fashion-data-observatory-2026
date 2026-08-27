@@ -20,6 +20,12 @@ Before publishing, replace the editorial-team author with the legal person or or
 | 6 | Mendeley Data or Dataverse | Additional scholarly discovery and repository-specific audiences | Choose one only when it reaches a distinct audience or satisfies an institutional requirement; relate it to the primary DOI. |
 | 7 | Kaggle | Community notebooks and exploratory reuse | Publish only if accompanied by a useful notebook or analysis; cite the primary DOI and source ledger. |
 
+## Podcast and RSS companion
+
+The official audio companion is [Lunarness Fashion Data Briefing](https://rss.com/podcasts/lunarness-fashion-data-briefing/). Its canonical distribution feed is [the open RSS feed](https://media.rss.com/lunarness-fashion-data-briefing/feed.xml).
+
+Every public dataset mirror should include both links as supporting material. The podcast explains selected findings, while the DOI record and canonical Observatory page remain the citation authorities for data and methodology.
+
 ## Quality requirements for every copy
 
 - Preserve the `source_url`, `period`, `unit`, `derivation` and `comparability_note` fields.

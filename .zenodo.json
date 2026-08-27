@@ -21,6 +21,16 @@
       "identifier": "https://lunarness.com/pages/fashion-statistics-observatory",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://rss.com/podcasts/lunarness-fashion-data-briefing/",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://media.rss.com/lunarness-fashion-data-briefing/feed.xml",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
     }
   ],
   "notes": "Lunarness original commentary, calculations and data structure are CC BY 4.0. Third-party facts remain subject to the cited source terms."

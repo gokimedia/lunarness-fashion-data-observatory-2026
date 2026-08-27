@@ -15,6 +15,12 @@
     "https://github.com/gokimedia/lunarness-fashion-data-observatory-2026",
     "https://www.kaggle.com/datasets/morrispoint/lunarness-fashion-data-observatory-2026"
   ],
+  "subjectOf": {
+    "@type": "sc:PodcastSeries",
+    "name": "Lunarness Fashion Data Briefing",
+    "url": "https://rss.com/podcasts/lunarness-fashion-data-briefing/",
+    "webFeed": "https://media.rss.com/lunarness-fashion-data-briefing/feed.xml"
+  },
   "datePublished": "2026-08-27",
   "version": "1.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
