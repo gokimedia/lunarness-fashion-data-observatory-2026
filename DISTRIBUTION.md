@@ -26,6 +26,13 @@ The official audio companion is [Lunarness Fashion Data Briefing](https://rss.co
 
 Every public dataset mirror should include both links as supporting material. The podcast explains selected findings, while the DOI record and canonical Observatory page remain the citation authorities for data and methodology.
 
+Verified directory records:
+
+- [Spotify](https://open.spotify.com/show/6QwJGgZmdQUWCqck8ERs82)
+- [Amazon Music](https://music.amazon.com/podcasts/f21efb1f-96cb-4cb2-8f46-c3734be17974/lunarness-fashion-data-briefing)
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/lunarness-fashion-data-briefing/id6805995146)
+- [Podcast Index](https://podcastindex.org/podcast/8007834)
+
 ## Quality requirements for every copy
 
 - Preserve the `source_url`, `period`, `unit`, `derivation` and `comparability_note` fields.

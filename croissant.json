@@ -19,7 +19,13 @@
     "@type": "sc:PodcastSeries",
     "name": "Lunarness Fashion Data Briefing",
     "url": "https://rss.com/podcasts/lunarness-fashion-data-briefing/",
-    "webFeed": "https://media.rss.com/lunarness-fashion-data-briefing/feed.xml"
+    "webFeed": "https://media.rss.com/lunarness-fashion-data-briefing/feed.xml",
+    "sameAs": [
+      "https://open.spotify.com/show/6QwJGgZmdQUWCqck8ERs82",
+      "https://music.amazon.com/podcasts/f21efb1f-96cb-4cb2-8f46-c3734be17974/lunarness-fashion-data-briefing",
+      "https://podcasts.apple.com/us/podcast/lunarness-fashion-data-briefing/id6805995146",
+      "https://podcastindex.org/podcast/8007834"
+    ]
   },
   "datePublished": "2026-08-27",
   "version": "1.0",

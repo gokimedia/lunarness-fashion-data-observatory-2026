@@ -31,6 +31,26 @@
       "identifier": "https://media.rss.com/lunarness-fashion-data-briefing/feed.xml",
       "relation": "isSupplementedBy",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://open.spotify.com/show/6QwJGgZmdQUWCqck8ERs82",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://music.amazon.com/podcasts/f21efb1f-96cb-4cb2-8f46-c3734be17974/lunarness-fashion-data-briefing",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://podcasts.apple.com/us/podcast/lunarness-fashion-data-briefing/id6805995146",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://podcastindex.org/podcast/8007834",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
     }
   ],
   "notes": "Lunarness original commentary, calculations and data structure are CC BY 4.0. Third-party facts remain subject to the cited source terms."

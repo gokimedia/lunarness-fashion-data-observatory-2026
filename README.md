@@ -51,7 +51,10 @@ The [Lunarness Fashion Data Briefing](https://rss.com/podcasts/lunarness-fashion
 
 - [Official podcast page](https://rss.com/podcasts/lunarness-fashion-data-briefing/)
 - [Open podcast RSS feed](https://media.rss.com/lunarness-fashion-data-briefing/feed.xml)
+- [Spotify listing](https://open.spotify.com/show/6QwJGgZmdQUWCqck8ERs82)
+- [Amazon Music listing](https://music.amazon.com/podcasts/f21efb1f-96cb-4cb2-8f46-c3734be17974/lunarness-fashion-data-briefing)
 - [Apple Podcasts listing](https://podcasts.apple.com/us/podcast/lunarness-fashion-data-briefing/id6805995146)
+- [Podcast Index record](https://podcastindex.org/podcast/8007834)
 
 ## Files
 
