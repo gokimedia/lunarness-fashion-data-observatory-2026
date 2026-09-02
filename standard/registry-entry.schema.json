@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lunarness.com/schemas/lfdts-registry-entry-v1.json",
+  "title": "LFDTS registry entry v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "standard_version",
+    "organization",
+    "domain",
+    "scope",
+    "status",
+    "independent_review",
+    "assessed_by",
+    "issued_at",
+    "expires_at",
+    "evidence_url",
+    "artifact_url",
+    "artifact_sha256",
+    "criteria"
+  ],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^lfdts-[0-9]{4}-[0-9]{4}$"},
+    "standard_version": {"const": "1.0"},
+    "organization": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "pattern": "^[a-z0-9.-]+$"},
+    "scope": {"type": "string", "minLength": 1},
+    "status": {"enum": ["verified", "self-assessed", "expired", "revoked"]},
+    "independent_review": {"type": "boolean"},
+    "assessed_by": {"type": "string", "minLength": 1},
+    "issued_at": {"type": "string", "format": "date"},
+    "expires_at": {"type": "string", "format": "date"},
+    "evidence_url": {"type": "string", "format": "uri"},
+    "artifact_url": {"type": "string", "format": "uri"},
+    "artifact_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "criteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["S1", "M1", "C1", "C2", "A1", "V1", "G1", "I1"],
+      "properties": {
+        "S1": {"const": "pass"},
+        "M1": {"const": "pass"},
+        "C1": {"const": "pass"},
+        "C2": {"const": "pass"},
+        "A1": {"const": "pass"},
+        "V1": {"const": "pass"},
+        "G1": {"const": "pass"},
+        "I1": {"const": "pass"}
+      }
+    },
+    "notes": {"type": "string"}
+  }
+}

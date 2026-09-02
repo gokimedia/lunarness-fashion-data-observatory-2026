@@ -1,0 +1,26 @@
+{
+  "record_id": "lfdts-2026-0001",
+  "standard_version": "1.0",
+  "organization": "Lunarness",
+  "domain": "lunarness.com",
+  "scope": "Lunarness Fashion Data Observatory 2026, version 1.0",
+  "status": "self-assessed",
+  "independent_review": false,
+  "assessed_by": "Lunarness Editorial Team",
+  "issued_at": "2026-09-03",
+  "expires_at": "2027-09-03",
+  "evidence_url": "https://lunarness.com/pages/fashion-statistics-observatory",
+  "artifact_url": "https://raw.githubusercontent.com/gokimedia/lunarness-fashion-data-observatory-2026/main/data/fashion_observatory_2026.json",
+  "artifact_sha256": "c71f8f00ae1c8625ca60aad94888058c1e9eaea3ae402254e83344a9c24e3d25",
+  "criteria": {
+    "S1": "pass",
+    "M1": "pass",
+    "C1": "pass",
+    "C2": "pass",
+    "A1": "pass",
+    "V1": "pass",
+    "G1": "pass",
+    "I1": "pass"
+  },
+  "notes": "Founding implementation. This record is a disclosed self-assessment and is not independent verification."
+}

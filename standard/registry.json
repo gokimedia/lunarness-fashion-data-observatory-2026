@@ -1,0 +1,20 @@
+{
+  "standard": "Lunarness Fashion Data Transparency Standard",
+  "standard_version": "1.0",
+  "canonical_url": "https://lunarness.com/pages/fashion-data-transparency-standard",
+  "updated_at": "2026-09-03",
+  "entries": [
+    {
+      "record_id": "lfdts-2026-0001",
+      "organization": "Lunarness",
+      "domain": "lunarness.com",
+      "status": "self-assessed",
+      "independent_review": false,
+      "issued_at": "2026-09-03",
+      "expires_at": "2027-09-03",
+      "record_url": "https://lunarness.com/pages/fashion-data-transparency-standard#record-lfdts-2026-0001",
+      "record_file": "registry/lunarness.com.json",
+      "badge_file": "badges/lunarness.com.json"
+    }
+  ]
+}
