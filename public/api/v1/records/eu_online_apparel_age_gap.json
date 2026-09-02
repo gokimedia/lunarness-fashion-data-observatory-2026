@@ -1,0 +1,15 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "record": {
+    "id": "eu_online_apparel_age_gap",
+    "topic": "ecommerce",
+    "geography": "European Union",
+    "period": "2024",
+    "entity": "Age 25–34 vs 65–74",
+    "value": 37,
+    "unit": "percentage points",
+    "derivation": "59 - 22",
+    "source": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics_for_individuals"
+  }
+}

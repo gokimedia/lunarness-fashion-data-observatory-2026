@@ -1,0 +1,20 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "topic": "climate",
+  "count": 1,
+  "records": [
+    {
+      "id": "global_textile_ghg_range",
+      "topic": "climate",
+      "geography": "Worldwide",
+      "period": "2025",
+      "entity": "Textile industry",
+      "value_min": 2,
+      "value_max": 8,
+      "unit": "percent of global GHG emissions",
+      "caveat": "Range; not a single-point estimate",
+      "source": "https://www.unep.org/annualreport/2025/stories/minimizing-fashions-environmental-footprint"
+    }
+  ]
+}

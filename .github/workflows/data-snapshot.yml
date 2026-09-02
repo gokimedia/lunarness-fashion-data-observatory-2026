@@ -1,0 +1,46 @@
+name: Publish data snapshot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - run: npm run build:api
+      - run: npm test
+      - name: Package versioned artifacts
+        shell: bash
+        run: |
+          snapshot_id="data-$(date -u +%Y-%m-%d)-${GITHUB_SHA::7}"
+          echo "SNAPSHOT_ID=$snapshot_id" >> "$GITHUB_ENV"
+          mkdir -p release
+          cp data/fashion_observatory_2026.json release/
+          cp data/fashion_observatory_2026.csv release/
+          cp public/api/v1/manifest.json release/
+          cp public/openapi.yaml release/
+          cp public/postman/lunarness-fashion-data.postman_collection.json release/
+          cp CITATION.cff LICENSE.md data_dictionary.md release/
+          tar -czf "${snapshot_id}.tar.gz" release
+      - name: Create immutable snapshot release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if gh release view "$SNAPSHOT_ID" >/dev/null 2>&1; then
+            exit 0
+          fi
+          gh release create "$SNAPSHOT_ID" "$SNAPSHOT_ID.tar.gz" \
+            --title "Fashion Data Observatory snapshot ${SNAPSHOT_ID#data-}" \
+            --notes "Automated, checksummed data snapshot. Cite DOI 10.5281/zenodo.22131190 and the underlying source for each metric."

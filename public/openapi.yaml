@@ -1,0 +1,166 @@
+openapi: 3.1.0
+info:
+  title: Lunarness Fashion Data API
+  version: 1.0.0
+  description: >-
+    Read-only access to the cited Lunarness Fashion Data Observatory 2026
+    release. Units, periods, sources, derivations and caveats remain attached.
+  license:
+    name: CC BY 4.0 for Lunarness original analysis and data structure
+    url: https://creativecommons.org/licenses/by/4.0/
+  contact:
+    name: Lunarness
+    url: https://lunarness.com/pages/contact
+servers:
+  - url: https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1
+security: []
+paths:
+  /index.json:
+    get:
+      operationId: getApiIndex
+      summary: Get the API directory
+      responses:
+        '200':
+          description: API directory and topic list
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: API directory not found
+  /manifest.json:
+    get:
+      operationId: getManifest
+      summary: Get the release manifest and checksum
+      responses:
+        '200':
+          description: Dataset release manifest
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Manifest not found
+  /dataset.json:
+    get:
+      operationId: getDataset
+      summary: Get the complete dataset
+      responses:
+        '200':
+          description: Complete cited dataset
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dataset'
+        '404':
+          description: Dataset not found
+  /records.json:
+    get:
+      operationId: listRecords
+      summary: List every record
+      responses:
+        '200':
+          description: All records
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Records collection not found
+  /records/{id}.json:
+    get:
+      operationId: getRecord
+      summary: Get one record by its stable ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          examples:
+            textileConsumption:
+              value: eu_textile_consumption
+      responses:
+        '200':
+          description: A single record with source and caveat
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Record ID not found
+  /topics/{topic}.json:
+    get:
+      operationId: listTopicRecords
+      summary: List records in one topic
+      parameters:
+        - name: topic
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [circularity, climate, digital_demand, ecommerce, media_attention]
+      responses:
+        '200':
+          description: Topic records
+          content:
+            application/json:
+              schema:
+                type: object
+        '404':
+          description: Topic not found
+components:
+  schemas:
+    Dataset:
+      type: object
+      required: [name, version, published, canonical_url, license, method, records]
+      properties:
+        name:
+          type: string
+        version:
+          type: string
+        published:
+          type: string
+          format: date
+        canonical_url:
+          type: string
+          format: uri
+        license:
+          type: object
+        method:
+          type: string
+        records:
+          type: array
+          items:
+            $ref: '#/components/schemas/Record'
+    Record:
+      type: object
+      required: [id, topic, geography, period, entity, unit, source]
+      properties:
+        id:
+          type: string
+        topic:
+          type: string
+        geography:
+          type: string
+        period:
+          type: string
+        entity:
+          type: string
+        value:
+          type: number
+        value_min:
+          type: number
+        value_max:
+          type: number
+        value_lower_bound:
+          type: number
+        unit:
+          type: string
+        derivation:
+          type: string
+        caveat:
+          type: string
+        source:
+          type: string
+          format: uri

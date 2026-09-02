@@ -1,0 +1,167 @@
+{
+  "info": {
+    "_postman_id": "318e922c-1375-4c95-88ec-60fb2f0a2c74",
+    "name": "Lunarness Fashion Data API",
+    "description": "Source-aware requests for the Lunarness Fashion Data Observatory 2026 public API. No API key is required.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1",
+      "type": "string"
+    },
+    {
+      "key": "recordId",
+      "value": "eu_textile_consumption",
+      "type": "string"
+    },
+    {
+      "key": "topic",
+      "value": "circularity",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "API directory",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/index.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "index.json"
+          ]
+        },
+        "description": "Returns a versioned, read-only JSON representation with source and interpretation fields intact."
+      },
+      "response": []
+    },
+    {
+      "name": "Release manifest",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/manifest.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "manifest.json"
+          ]
+        },
+        "description": "Returns a versioned, read-only JSON representation with source and interpretation fields intact."
+      },
+      "response": []
+    },
+    {
+      "name": "Complete dataset",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/dataset.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "dataset.json"
+          ]
+        },
+        "description": "Returns a versioned, read-only JSON representation with source and interpretation fields intact."
+      },
+      "response": []
+    },
+    {
+      "name": "All records",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/records.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "records.json"
+          ]
+        },
+        "description": "Returns a versioned, read-only JSON representation with source and interpretation fields intact."
+      },
+      "response": []
+    },
+    {
+      "name": "Record by ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/records/{{recordId}}.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "records",
+            "{{recordId}}.json"
+          ]
+        },
+        "description": "Returns a versioned, read-only JSON representation with source and interpretation fields intact."
+      },
+      "response": []
+    },
+    {
+      "name": "Records by topic",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/topics/{{topic}}.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "topics",
+            "{{topic}}.json"
+          ]
+        },
+        "description": "Returns a versioned, read-only JSON representation with source and interpretation fields intact."
+      },
+      "response": []
+    }
+  ]
+}

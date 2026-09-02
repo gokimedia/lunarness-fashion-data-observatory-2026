@@ -1,0 +1,19 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "topic": "digital_demand",
+  "count": 1,
+  "records": [
+    {
+      "id": "fashion_site_visits",
+      "topic": "digital_demand",
+      "geography": "Worldwide",
+      "period": "2024-01",
+      "entity": "Shein",
+      "value_lower_bound": 184,
+      "unit": "monthly visits in millions",
+      "caveat": "Visits, not unique users or sales",
+      "source": "https://www.statista.com/statistics/1638634/clothing-website-visits/"
+    }
+  ]
+}
