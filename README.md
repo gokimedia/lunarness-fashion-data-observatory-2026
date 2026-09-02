@@ -38,6 +38,37 @@ citation: |
 
 This package is the machine-readable companion to the [Lunarness Fashion Data Observatory 2026](https://lunarness.com/pages/fashion-statistics-observatory). It combines a small set of cited public findings about Fashion Week media attention, historical event attendance, online fashion behavior and textile circularity with clearly labeled arithmetic derivations.
 
+## Node.js library and CLI
+
+The zero-dependency Node.js package queries the bundled, versioned release and validates its record structure without scraping a live page.
+
+```bash
+npm install lunarness-fashion-data
+npx lunarness-fashion-data validate
+npx lunarness-fashion-data topics
+npx lunarness-fashion-data list --topic ecommerce
+npx lunarness-fashion-data get eu_textile_consumption
+npx lunarness-fashion-data search "Fashion Week" --json
+```
+
+Use it as an ES module:
+
+```js
+import {
+  getRecord,
+  listRecords,
+  searchRecords,
+  validateDataset,
+} from 'lunarness-fashion-data';
+
+const metric = getRecord('eu_textile_consumption');
+const ecommerce = listRecords({ topic: 'ecommerce' });
+const matches = searchRecords('textile');
+const validation = validateDataset();
+```
+
+The package preserves units, periods, source URLs, derivations and caveats. A successful structural validation does not independently verify a third-party source or turn unlike metrics into comparable values.
+
 The Lunarness page is the canonical editorial presentation. The same versioned package is distributed through the following research and data platforms, with one shared Zenodo DOI:
 
 - [Zenodo record](https://zenodo.org/records/22131190)

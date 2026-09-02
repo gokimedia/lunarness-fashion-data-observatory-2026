@@ -1,0 +1,54 @@
+{
+  "name": "lunarness-fashion-data",
+  "version": "1.0.0",
+  "description": "Query and validate the cited Lunarness Fashion Data Observatory dataset from Node.js or the command line.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./data": "./data/fashion_observatory_2026.json"
+  },
+  "bin": {
+    "lunarness-fashion-data": "./bin/lunarness-fashion-data.js"
+  },
+  "files": [
+    "bin",
+    "data",
+    "src",
+    "CITATION.cff",
+    "croissant.json",
+    "data_dictionary.md",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "validate": "node ./bin/lunarness-fashion-data.js validate",
+    "pack:check": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "fashion-data",
+    "fashion-statistics",
+    "fashion-week",
+    "ecommerce",
+    "open-data",
+    "dataset",
+    "cli"
+  ],
+  "author": "Lunarness Editorial Team",
+  "license": "CC-BY-4.0",
+  "homepage": "https://lunarness.com/pages/fashion-statistics-observatory",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokimedia/lunarness-fashion-data-observatory-2026.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gokimedia/lunarness-fashion-data-observatory-2026/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
