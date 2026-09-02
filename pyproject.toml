@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lunarness-fashion-data"
+version = "1.0.0"
+description = "Query and validate the cited Lunarness Fashion Data Observatory dataset from Python or the command line."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "CC-BY-4.0"
+authors = [
+  { name = "Lunarness Editorial Team" }
+]
+keywords = [
+  "fashion-data",
+  "fashion-statistics",
+  "fashion-week",
+  "ecommerce",
+  "open-data",
+  "dataset",
+  "cli"
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Information Analysis"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://lunarness.com/pages/fashion-statistics-observatory"
+Documentation = "https://github.com/gokimedia/lunarness-fashion-data-observatory-2026#python-library-and-cli"
+Repository = "https://github.com/gokimedia/lunarness-fashion-data-observatory-2026"
+Issues = "https://github.com/gokimedia/lunarness-fashion-data-observatory-2026/issues"
+DOI = "https://doi.org/10.5281/zenodo.22131190"
+
+[project.scripts]
+lunarness-fashion-data = "lunarness_fashion_data.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "python_src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["python_src"]
+
+[tool.setuptools.package-data]
+lunarness_fashion_data = ["data/*.json", "py.typed"]

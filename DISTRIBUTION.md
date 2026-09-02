@@ -20,6 +20,13 @@ Before publishing, replace the editorial-team author with the legal person or or
 | 6 | Mendeley Data or Dataverse | Additional scholarly discovery and repository-specific audiences | Choose one only when it reaches a distinct audience or satisfies an institutional requirement; relate it to the primary DOI. |
 | 7 | Kaggle | Community notebooks and exploratory reuse | Publish only if accompanied by a useful notebook or analysis; cite the primary DOI and source ledger. |
 
+Developer distributions use the same release identity rather than minting separate datasets:
+
+- npm: `lunarness-fashion-data` for Node.js and CLI workflows.
+- PyPI: `lunarness-fashion-data` for Python and CLI workflows.
+
+Both packages must bundle byte-equivalent record content, retain the canonical Observatory URL and return the primary Zenodo DOI in their citation helper.
+
 ## Podcast and RSS companion
 
 The official audio companion is [Lunarness Fashion Data Briefing](https://rss.com/podcasts/lunarness-fashion-data-briefing/). Its canonical distribution feed is [the open RSS feed](https://media.rss.com/lunarness-fashion-data-briefing/feed.xml).
