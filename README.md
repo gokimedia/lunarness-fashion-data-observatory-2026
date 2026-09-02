@@ -98,6 +98,8 @@ The Lunarness page is the canonical editorial presentation. The same versioned p
 
 - [Zenodo record](https://zenodo.org/records/22131190)
 - [GitHub repository](https://github.com/gokimedia/lunarness-fashion-data-observatory-2026)
+- [npm package](https://www.npmjs.com/package/lunarness-fashion-data)
+- [PyPI package](https://pypi.org/project/lunarness-fashion-data/)
 - [Hugging Face dataset](https://huggingface.co/datasets/FoodSecuriry/lunarness-fashion-data-observatory-2026)
 - [Kaggle dataset](https://www.kaggle.com/datasets/morrispoint/lunarness-fashion-data-observatory-2026)
 
