@@ -24,6 +24,7 @@
   ],
   "scripts": {
     "test": "node --test",
+    "build:api": "node ./scripts/build-api.mjs",
     "validate": "node ./bin/lunarness-fashion-data.js validate",
     "validate:standard": "node ./scripts/validate-standard.js",
     "pack:check": "npm pack --dry-run"

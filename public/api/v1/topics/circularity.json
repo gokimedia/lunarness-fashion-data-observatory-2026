@@ -1,0 +1,29 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "topic": "circularity",
+  "count": 2,
+  "records": [
+    {
+      "id": "eu_textile_consumption",
+      "topic": "circularity",
+      "geography": "EU27",
+      "period": "2022",
+      "entity": "Per resident",
+      "value": 19,
+      "unit": "kg per capita",
+      "caveat": "Apparent consumption estimate",
+      "source": "https://www.eea.europa.eu/en/circularity/sectoral-modules/textiles/consumption-of-clothing-footwear-and-household-textiles-per-person"
+    },
+    {
+      "id": "eu_textile_waste",
+      "topic": "circularity",
+      "geography": "European Union",
+      "period": "2022",
+      "entity": "Per resident",
+      "value": 16,
+      "unit": "kg per capita",
+      "source": "https://www.eea.europa.eu/en/newsroom/news/consumption-of-clothing-footwear-other-textiles-in-the-eu-reaches-new-record-high"
+    }
+  ]
+}

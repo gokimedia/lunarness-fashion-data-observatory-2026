@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm test
+      - run: npm run build:api
+      - run: git diff --exit-code -- public
       - run: npm run validate
       - run: npm pack --dry-run
 

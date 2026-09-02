@@ -69,6 +69,27 @@ const validation = validateDataset();
 
 The package preserves units, periods, source URLs, derivations and caveats. A successful structural validation does not independently verify a third-party source or turn unlike metrics into comparable values.
 
+## Public JSON API
+
+The dataset is also available as a read-only, keyless API generated directly from the versioned source file:
+
+- [API documentation](https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/)
+- [API directory](https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/index.json)
+- [Complete dataset](https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/dataset.json)
+- [Release manifest and SHA-256](https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/manifest.json)
+- [OpenAPI 3.1 specification](https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/openapi.yaml)
+- [Postman collection](https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/postman/lunarness-fashion-data.postman_collection.json)
+
+Example record request:
+
+```bash
+curl https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/records/eu_textile_consumption.json
+```
+
+Record and topic endpoints are static, cacheable representations. A missing ID returns GitHub Pages' standard `404` response. The API does not proxy or reproduce third-party source databases.
+
+Run `npm run build:api` after changing the source dataset. CI rejects a pull request when the committed API output does not match the source file. Data changes on `main` create a separate checksummed `data-*` snapshot; monthly integrity checks do not mint redundant releases when the data is unchanged.
+
 ## Python library and CLI
 
 Install the zero-dependency Python distribution from PyPI:

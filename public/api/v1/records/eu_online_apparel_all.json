@@ -1,0 +1,15 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "record": {
+    "id": "eu_online_apparel_all",
+    "topic": "ecommerce",
+    "geography": "European Union",
+    "period": "2024",
+    "entity": "Internet users",
+    "value": 46,
+    "unit": "percent",
+    "caveat": "Internet use in the previous three months",
+    "source": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics_for_individuals"
+  }
+}

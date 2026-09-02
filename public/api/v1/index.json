@@ -1,0 +1,26 @@
+{
+  "name": "Lunarness Fashion Data API",
+  "version": "v1",
+  "dataset_version": "1.0",
+  "canonical_url": "https://lunarness.com/pages/fashion-statistics-observatory",
+  "license": {
+    "original_analysis": "CC BY 4.0",
+    "note": "Third-party facts remain subject to their source terms. Cite the underlying source when using a metric."
+  },
+  "endpoints": {
+    "dataset": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/dataset.json",
+    "records": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/records.json",
+    "manifest": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/manifest.json",
+    "openapi": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/openapi.yaml",
+    "postman": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/postman/lunarness-fashion-data.postman_collection.json",
+    "record_template": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/records/{id}.json",
+    "topic_template": "https://gokimedia.github.io/lunarness-fashion-data-observatory-2026/api/v1/topics/{topic}.json"
+  },
+  "topics": [
+    "circularity",
+    "climate",
+    "digital_demand",
+    "ecommerce",
+    "media_attention"
+  ]
+}

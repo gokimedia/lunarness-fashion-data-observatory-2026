@@ -1,0 +1,16 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "record": {
+    "id": "fw_london_top3_total",
+    "topic": "media_attention",
+    "geography": "Worldwide",
+    "period": "2024",
+    "entity": "London Fashion Week",
+    "value": 22.9,
+    "unit": "USD millions",
+    "derivation": "14.9 + 4.1 + 3.9",
+    "caveat": "Top-three brand MIV only; not total event MIV",
+    "source": "https://www.statista.com/statistics/1462233/brands-london-fashion-week-miv/"
+  }
+}

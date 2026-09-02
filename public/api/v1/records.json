@@ -1,0 +1,121 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "count": 10,
+  "records": [
+    {
+      "id": "fw_paris_top3_total",
+      "topic": "media_attention",
+      "geography": "Worldwide",
+      "period": "2024",
+      "entity": "Paris Fashion Week",
+      "value": 97.7,
+      "unit": "USD millions",
+      "derivation": "36.3 + 32.7 + 28.7",
+      "caveat": "Top-three brand MIV only; not total event MIV",
+      "source": "https://www.statista.com/statistics/1462315/brands-paris-fashion-week-miv/"
+    },
+    {
+      "id": "fw_milan_top3_total",
+      "topic": "media_attention",
+      "geography": "Worldwide",
+      "period": "2024",
+      "entity": "Milan Fashion Week",
+      "value": 72.6,
+      "unit": "USD millions",
+      "derivation": "25.0 + 24.6 + 23.0",
+      "caveat": "Top-three brand MIV only; not total event MIV",
+      "source": "https://www.statista.com/statistics/1462276/brands-milan-fashion-week-miv/"
+    },
+    {
+      "id": "fw_new_york_top3_total",
+      "topic": "media_attention",
+      "geography": "Worldwide",
+      "period": "2024",
+      "entity": "New York Fashion Week",
+      "value": 46.6,
+      "unit": "USD millions",
+      "derivation": "21.3 + 16.8 + 8.5",
+      "caveat": "Top-three brand MIV only; not total event MIV",
+      "source": "https://www.statista.com/statistics/1462306/brands-new-york-fashion-week-miv/"
+    },
+    {
+      "id": "fw_london_top3_total",
+      "topic": "media_attention",
+      "geography": "Worldwide",
+      "period": "2024",
+      "entity": "London Fashion Week",
+      "value": 22.9,
+      "unit": "USD millions",
+      "derivation": "14.9 + 4.1 + 3.9",
+      "caveat": "Top-three brand MIV only; not total event MIV",
+      "source": "https://www.statista.com/statistics/1462233/brands-london-fashion-week-miv/"
+    },
+    {
+      "id": "eu_online_apparel_all",
+      "topic": "ecommerce",
+      "geography": "European Union",
+      "period": "2024",
+      "entity": "Internet users",
+      "value": 46,
+      "unit": "percent",
+      "caveat": "Internet use in the previous three months",
+      "source": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics_for_individuals"
+    },
+    {
+      "id": "eu_online_apparel_age_gap",
+      "topic": "ecommerce",
+      "geography": "European Union",
+      "period": "2024",
+      "entity": "Age 25–34 vs 65–74",
+      "value": 37,
+      "unit": "percentage points",
+      "derivation": "59 - 22",
+      "source": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics_for_individuals"
+    },
+    {
+      "id": "fashion_site_visits",
+      "topic": "digital_demand",
+      "geography": "Worldwide",
+      "period": "2024-01",
+      "entity": "Shein",
+      "value_lower_bound": 184,
+      "unit": "monthly visits in millions",
+      "caveat": "Visits, not unique users or sales",
+      "source": "https://www.statista.com/statistics/1638634/clothing-website-visits/"
+    },
+    {
+      "id": "eu_textile_consumption",
+      "topic": "circularity",
+      "geography": "EU27",
+      "period": "2022",
+      "entity": "Per resident",
+      "value": 19,
+      "unit": "kg per capita",
+      "caveat": "Apparent consumption estimate",
+      "source": "https://www.eea.europa.eu/en/circularity/sectoral-modules/textiles/consumption-of-clothing-footwear-and-household-textiles-per-person"
+    },
+    {
+      "id": "eu_textile_waste",
+      "topic": "circularity",
+      "geography": "European Union",
+      "period": "2022",
+      "entity": "Per resident",
+      "value": 16,
+      "unit": "kg per capita",
+      "source": "https://www.eea.europa.eu/en/newsroom/news/consumption-of-clothing-footwear-other-textiles-in-the-eu-reaches-new-record-high"
+    },
+    {
+      "id": "global_textile_ghg_range",
+      "topic": "climate",
+      "geography": "Worldwide",
+      "period": "2025",
+      "entity": "Textile industry",
+      "value_min": 2,
+      "value_max": 8,
+      "unit": "percent of global GHG emissions",
+      "caveat": "Range; not a single-point estimate",
+      "source": "https://www.unep.org/annualreport/2025/stories/minimizing-fashions-environmental-footprint"
+    }
+  ]
+}

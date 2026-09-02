@@ -1,0 +1,16 @@
+{
+  "dataset": "Lunarness Fashion Data Observatory 2026",
+  "dataset_version": "1.0",
+  "record": {
+    "id": "fw_milan_top3_total",
+    "topic": "media_attention",
+    "geography": "Worldwide",
+    "period": "2024",
+    "entity": "Milan Fashion Week",
+    "value": 72.6,
+    "unit": "USD millions",
+    "derivation": "25.0 + 24.6 + 23.0",
+    "caveat": "Top-three brand MIV only; not total event MIV",
+    "source": "https://www.statista.com/statistics/1462276/brands-milan-fashion-week-miv/"
+  }
+}
