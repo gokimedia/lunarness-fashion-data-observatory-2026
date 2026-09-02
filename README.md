@@ -69,6 +69,31 @@ const validation = validateDataset();
 
 The package preserves units, periods, source URLs, derivations and caveats. A successful structural validation does not independently verify a third-party source or turn unlike metrics into comparable values.
 
+## Python library and CLI
+
+Install the zero-dependency Python distribution from PyPI:
+
+```bash
+python -m pip install lunarness-fashion-data
+lunarness-fashion-data validate
+lunarness-fashion-data topics
+lunarness-fashion-data list --topic ecommerce
+lunarness-fashion-data get eu_textile_consumption
+lunarness-fashion-data search "Fashion Week" --json
+```
+
+Use the same query surface from Python:
+
+```python
+from lunarness_fashion_data import get_record, list_records, validate_dataset
+
+metric = get_record("eu_textile_consumption")
+ecommerce = list_records(topic="ecommerce")
+validation = validate_dataset()
+```
+
+The Python wheel bundles the same versioned JSON file as the Node.js package. Tests fail if the packaged copy diverges from the canonical repository file.
+
 The Lunarness page is the canonical editorial presentation. The same versioned package is distributed through the following research and data platforms, with one shared Zenodo DOI:
 
 - [Zenodo record](https://zenodo.org/records/22131190)
@@ -91,6 +116,7 @@ The [Lunarness Fashion Data Briefing](https://rss.com/podcasts/lunarness-fashion
 
 - `data/fashion_observatory_2026.csv`: flat, row-level release with source and comparability fields.
 - `data/fashion_observatory_2026.json`: compact JSON release used by the web page.
+- `python_src/lunarness_fashion_data`: zero-dependency Python API and CLI package.
 - `data_dictionary.md`: field meanings and interpretation rules.
 - `croissant.json`: MLCommons Croissant-style dataset metadata for machine discovery.
 - `CITATION.cff`: citation metadata for GitHub and scholarly tools.
