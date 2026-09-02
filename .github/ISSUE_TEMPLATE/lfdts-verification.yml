@@ -1,0 +1,60 @@
+name: LFDTS verification request
+description: Request a review against the Lunarness Fashion Data Transparency Standard.
+title: "[LFDTS verification] "
+labels:
+  - verification
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Verification applies only to the submitted URL and scope. It is not a product, safety, sustainability or government certification.
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      placeholder: example.org
+    validations:
+      required: true
+  - type: input
+    id: evidence_url
+    attributes:
+      label: Canonical evidence URL
+      placeholder: https://example.org/research/report
+    validations:
+      required: true
+  - type: input
+    id: artifact_url
+    attributes:
+      label: Machine-readable artifact URL
+      placeholder: https://example.org/data/report.json
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Requested scope
+      description: Name the exact page, dataset and version to review.
+    validations:
+      required: true
+  - type: textarea
+    id: assessment
+    attributes:
+      label: Criterion-by-criterion self-assessment
+      description: Explain where S1, M1, C1, C2, A1, V1, G1 and I1 are satisfied.
+    validations:
+      required: true
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: Declarations
+      options:
+        - label: I understand that verification is scoped, time-limited and revocable.
+          required: true
+        - label: I will not describe LFDTS as a government or sustainability certification.
+          required: true

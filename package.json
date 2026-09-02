@@ -15,6 +15,7 @@
     "bin",
     "data",
     "src",
+    "standard",
     "CITATION.cff",
     "croissant.json",
     "data_dictionary.md",
@@ -24,6 +25,7 @@
   "scripts": {
     "test": "node --test",
     "validate": "node ./bin/lunarness-fashion-data.js validate",
+    "validate:standard": "node ./scripts/validate-standard.js",
     "pack:check": "npm pack --dry-run"
   },
   "engines": {

@@ -119,6 +119,12 @@ The [Lunarness Fashion Data Briefing](https://rss.com/podcasts/lunarness-fashion
 4. Keep a `comparability_note` next to values that are easy to overstate.
 5. Link every row to the source page that supports it.
 
+## Fashion Data Transparency Standard
+
+The repository also hosts the open [Lunarness Fashion Data Transparency Standard v1.0](standard/README.md). It defines eight testable disclosure requirements for public fashion-data pages: source identity, measurement context, calculation provenance, caveats, machine-readable access, versioning, corrections and evidence integrity.
+
+The [public registry](standard/registry.json) distinguishes independent verification from self-assessment. A badge is optional, expires with its registry record and is never evidence by itself. The canonical standard and verification page is [lunarness.com/pages/fashion-data-transparency-standard](https://lunarness.com/pages/fashion-data-transparency-standard).
+
 ## Citation
 
 Preferred short citation:
