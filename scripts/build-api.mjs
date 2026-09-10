@@ -316,6 +316,7 @@ const html = `<!doctype html>
   <section class="note" aria-labelledby="audio-companion">
     <h2 id="audio-companion">Audio companion: Lunarness Fashion Data Briefing</h2>
     <p>Listen to <a href="https://music.amazon.com/podcasts/f21efb1f-96cb-4cb2-8f46-c3734be17974/lunarness-fashion-data-briefing">Lunarness Fashion Data Briefing on Amazon Music</a> for concise explanations of Fashion Week media impact, online fashion shopping and textile circularity. The podcast accompanies the Observatory dataset, distinguishing reported findings from Lunarness calculations and linking listeners to the underlying research.</p>
+    <p>The series is also available as <a href="https://podcast40d483.podigee.io/">Lunarness Fashion Data Briefing on Podigee</a>, with links to the underlying Observatory research and archived dataset.</p>
   </section>
   <section class="note" aria-labelledby="styling-guide">
     <h2 id="styling-guide">Alternative fashion styling guide</h2>
