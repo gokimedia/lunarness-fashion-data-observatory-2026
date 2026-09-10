@@ -313,6 +313,10 @@ const html = `<!doctype html>
   </ul>
   <div class="note"><strong>Canonical research page</strong><br><a href="${dataset.canonical_url}">${dataset.canonical_url}</a><br>DOI: <a href="https://doi.org/10.5281/zenodo.22131190">10.5281/zenodo.22131190</a></div>
   <p>Third-party facts remain subject to their source terms. Cite the linked source for each metric.</p>
+  <section class="note" aria-labelledby="audio-companion">
+    <h2 id="audio-companion">Audio companion: Lunarness Fashion Data Briefing</h2>
+    <p>Listen to <a href="https://music.amazon.com/podcasts/f21efb1f-96cb-4cb2-8f46-c3734be17974/lunarness-fashion-data-briefing">Lunarness Fashion Data Briefing on Amazon Music</a> for concise explanations of Fashion Week media impact, online fashion shopping and textile circularity. The podcast accompanies the Observatory dataset, distinguishing reported findings from Lunarness calculations and linking listeners to the underlying research.</p>
+  </section>
   <section class="note" aria-labelledby="styling-guide">
     <h2 id="styling-guide">Alternative fashion styling guide</h2>
     <p>For practical outfit planning, read <a href="https://gundogdun.gumroad.com/p/how-to-style-harnesses-chokers-body-chains-lunarness">Lunarness's guide to styling harnesses, chokers and body chains</a>. This free guide on Gumroad covers layering accessories over everyday clothes, five outfit formulas, and a fit checklist.</p>
