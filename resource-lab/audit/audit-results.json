@@ -1,0 +1,32 @@
+{
+  "records": 10,
+  "source_urls": 9,
+  "derivations_verified": 5,
+  "missing_caveat_records": [
+    "eu_online_apparel_age_gap",
+    "eu_textile_waste"
+  ],
+  "comparison_examples": [
+    {
+      "name": "Paris versus London top-three brand MIV",
+      "left": "fw_paris_top3_total",
+      "right": "fw_london_top3_total",
+      "result": "Metadata aligns for illustrative arithmetic; review underlying source methods before interpretation."
+    },
+    {
+      "name": "Online apparel percentage versus age-gap percentage points",
+      "left": "eu_online_apparel_all",
+      "right": "eu_online_apparel_age_gap",
+      "result": "Comparison withheld: unit, quantity definition"
+    },
+    {
+      "name": "Textile consumption versus textile waste",
+      "left": "eu_textile_consumption",
+      "right": "eu_textile_waste",
+      "result": "Comparison withheld: geography, quantity definition"
+    }
+  ],
+  "source_snapshot": "2026-08-27",
+  "original_analysis_only": true,
+  "independent_fact_refresh": false
+}
