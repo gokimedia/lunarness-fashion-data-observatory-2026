@@ -1,0 +1,14 @@
+project = "lunarness-fashion-data"
+author = "Lunarness Editorial Team"
+copyright = "2026, Lunarness"
+version = "1.0.0"
+release = "1.0.0"
+extensions = []
+root_doc = "index"
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+html_theme = "alabaster"
+html_title = "lunarness-fashion-data 1.0.0 documentation"
+html_theme_options = {"description": "Query a versioned fashion-data release while keeping its units, sources and caveats attached."}
+html_show_sourcelink = True
+nitpicky = True
+highlight_language = "none"
