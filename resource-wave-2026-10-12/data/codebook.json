@@ -1,0 +1,25 @@
+{
+  "label_date": "2026-10-12",
+  "unit_of_observation": "one public products.json product record",
+  "coding": "Automated deterministic literal-token signals; no inferred product or body dimensions",
+  "fields": {
+    "product_id": "Public storefront product identifier, stored as string to avoid floating-point rounding",
+    "handle": "Public product URL handle",
+    "product_type": "Storefront's reported product_type; Not reported when empty",
+    "source_url": "Public product page URL derived from observed handle",
+    "captured_at_utc": "UTC capture timestamp; snapshot label uses the requested Istanbul date",
+    "option_names": "Observed option names joined with semicolons; no customer choices",
+    "variant_count": "Number of public variant records in the returned product object, not stock count",
+    "numeric_unit_pair": "0/1: description contains a number immediately followed by a recognized cm/mm/inch unit token",
+    "numeric_range_with_unit": "0/1: description contains two numbers joined by dash or to and followed by recognized length-unit text; context not validated",
+    "route_token": "0/1: description contains a literal chest/bust/waist/neck/wrist/thigh/hip/ankle/shoulder/torso token",
+    "closure_token": "0/1: description contains a literal buckle/clasp/snap/tie/hook/lace-up/lacing/velcro/fastener token",
+    "material_token": "0/1: description contains a literal material token from the disclosed rule; no authenticity conclusion",
+    "size_option_name": "0/1: at least one option name is exactly Size after case-folding and whitespace trimming",
+    "unit_tokens_detected": "Unique matched unit spellings, sorted and joined with semicolons; no dimension values are supplied"
+  },
+  "missingness": "Zero means the rule did not detect the signal in its examined field; it does not prove the information is unavailable elsewhere",
+  "excluded": ["Theme text", "linked size guides", "images", "reviews", "customer data", "private stock", "transaction data"],
+  "software_license": "MIT",
+  "dataset_license": "CC BY 4.0 original sparse observations/codebook/documentation only"
+}

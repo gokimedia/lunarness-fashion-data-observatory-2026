@@ -1,0 +1,24 @@
+Lunarness public catalog: literal measurement-disclosure signals (2026-10-12)
+Copyright (c) 2026 Lunarness
+
+The original sparse observations, codebook and dataset documentation are licensed
+under Creative Commons Attribution 4.0 International (CC BY 4.0).
+License: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution: Lunarness (2026), "Lunarness public catalog: literal
+measurement-disclosure signals (2026-10-12)", with the source dataset or repository
+URL, CC BY 4.0, and an indication of any changes.
+
+This license permits sharing and adaptation, including commercial reuse, subject
+to the terms of CC BY 4.0. It does not imply endorsement by the creator or host.
+
+Scope: sparse observed records, aggregate receipts, codebook, original explanatory
+documentation and the data in the SQL export. The original extraction/test
+software is separately MIT licensed; see LICENSE-CODE.txt. SQL schema and queries
+are original software under MIT; observed values in them are CC BY 4.0.
+
+Excluded: trademarks, product images, source product descriptions, linked websites
+and third-party material. No rights to those materials are granted by this notice.
+The observations are literal automated indicators and are not verified physical
+product dimensions or fit, safety, authenticity or quality recommendations.

@@ -1,0 +1,164 @@
+{
+  "title": "Lunarness original open resources — 12 October 2026",
+  "resources": [
+    {
+      "name": "Accessory Specification Linter",
+      "folder": "software",
+      "license": "MIT",
+      "functional_checks": 16,
+      "description": "Offline CSV documentation checks; no fit or safety recommendation."
+    },
+    {
+      "name": "Literal catalog disclosure signals",
+      "folder": "data",
+      "rows": 162,
+      "license": "CC BY 4.0 data/docs, MIT software",
+      "description": "Deterministic public-endpoint self-catalog audit; scope and affiliation disclosed."
+    },
+    {
+      "name": "A4/Letter paper width-comparison and fitting-record kit",
+      "file": "design/lunarness-paper-fitting-kit.zip",
+      "license": "CC BY 4.0",
+      "limits": "Original procedural work with AI assistance; not physically print-tested."
+    },
+    {
+      "name": "Parametric width gauges and double-slot routing study",
+      "file": "design/lunarness-width-routing-cad-source.zip",
+      "license": "CC BY 4.0 geometry / MIT OpenSCAD source",
+      "limits": "Original procedural work with AI assistance; not physically print-tested."
+    }
+  ],
+  "source_context": [
+    "https://lunarness.com/pages/size-guide",
+    "https://lunarness.com/pages/harness-size-calculator"
+  ],
+  "linked_material_and_trademarks": "Excluded from original resource licenses",
+  "files": [
+    {
+      "path": "resource-wave-2026-10-12/software/README.txt",
+      "bytes": 1776,
+      "sha256": "c94c6a36ec1864cc74f6465089d097b7232f1de9a4f0f6d790425914867b1549"
+    },
+    {
+      "path": "resource-wave-2026-10-12/software/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "c71da6ff7f7c1efc29bfd90f60a2586bf8463c484f7131c0f2aecad7657146e8"
+    },
+    {
+      "path": "resource-wave-2026-10-12/software/specification_linter.py",
+      "bytes": 5664,
+      "sha256": "dea005e55c2330dc7b57dad7f9751595cf47d243bb387d00aeadea7b308400eb"
+    },
+    {
+      "path": "resource-wave-2026-10-12/software/verify_linter.py",
+      "bytes": 3272,
+      "sha256": "10e498847a6cb3eb3d3b0bcd8df25fc9ce911cf63052615e150b207530bee079"
+    },
+    {
+      "path": "resource-wave-2026-10-12/software/example.csv",
+      "bytes": 548,
+      "sha256": "89e4eb6ad10c18f0f1cf9df73e4ac89b20f42f67104b49a06f719775d2a259c5"
+    },
+    {
+      "path": "resource-wave-2026-10-12/software/lunarness-specification-linter-1.0.0.zip",
+      "bytes": 5550,
+      "sha256": "53ef9d71d1679531cc48fb584c0dad8e3dd12fb6ff34ffefd55a2ab073883983"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/README.txt",
+      "bytes": 3209,
+      "sha256": "6e642574ea0ad31cf5c0614c9cb4c9ab312bc0076e35f6fa6ab3982309f5f9a9"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/LICENSE-DATA.txt",
+      "bytes": 1386,
+      "sha256": "ce15601d3c647ac7763fdc8a6cfa33bfbeadedde321dc3f8a30460379d1ffa02"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/LICENSE-CODE.txt",
+      "bytes": 1087,
+      "sha256": "c0f571125f9f9d29cd3a66aeb8c08376c80576c64fbdf807e25cfa93689c5ae0"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/codebook.json",
+      "bytes": 2118,
+      "sha256": "190ce954c93487aa03c2d95740a639cccd3b9cfab313ee21799e3212a7019175"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/capture-method-and-results.json",
+      "bytes": 1669,
+      "sha256": "8287fdc5f58f2e6fbeaae59f975830065a5eb7577d8ea459bfa021cb66be3528"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/catalog-disclosure-signals.csv",
+      "bytes": 33780,
+      "sha256": "a889f9ff9744e6acd3826a271018452cd2b595e2fd437eb4f5ef65e5b8bb3671"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/catalog-disclosure-signals.json",
+      "bytes": 91088,
+      "sha256": "be1c6abf3a3474dc264fdd46ebc274ce0be954ffbc0cd85a7c35218bccaa3d19"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/catalog-signals.sql",
+      "bytes": 38893,
+      "sha256": "cd086bd66a19d9d543331d965926460cd61f821970631bf615188d05fc9d3dcc"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/saved-queries.sql",
+      "bytes": 807,
+      "sha256": "d2312b0318cbc3428a063d5f7f81884f6ed86d88bd81818fc52d99475f25805d"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/build_catalog_signals.py",
+      "bytes": 6937,
+      "sha256": "ad5c73c54efc8ccbdcc40ab5b454e8c6a1eed5ca9660a86d9ebeafbd68db1d9d"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/verify_signal_rules.py",
+      "bytes": 1298,
+      "sha256": "9bcc57b27b5eda1ad70598257ad3a5f03c618602a7ba7e70e905845c141398ab"
+    },
+    {
+      "path": "resource-wave-2026-10-12/data/lunarness-catalog-disclosure-signals-2026-10-12.zip",
+      "bytes": 27665,
+      "sha256": "f55a1a6189014ed0d828dd2dd9fda133589623e9f6edbf3a0091ba621e29bfef"
+    },
+    {
+      "path": "resource-wave-2026-10-12/design/lunarness-paper-fitting-kit.zip",
+      "bytes": 10508,
+      "sha256": "f9a39859e0072ea7522f1e47c2ab261f253e42b27e02cb12e98007f8175b3ac5",
+      "contents": [
+        "lunarness-paper-fitting-kit-A4.pdf",
+        "lunarness-paper-fitting-kit-Letter.pdf",
+        "lunarness-width-comparison-A4.svg",
+        "lunarness-width-comparison-Letter.svg",
+        "README.txt",
+        "LICENSE-CC-BY-4.0.txt"
+      ]
+    },
+    {
+      "path": "resource-wave-2026-10-12/design/lunarness-width-routing-cad-source.zip",
+      "bytes": 10777,
+      "sha256": "9f05bf4efc9b5be85f0d8057c49898aa17952061ed61e26d801edffc69a39327",
+      "contents": [
+        "width-gauge-20mm.stl",
+        "width-gauge-20mm.obj",
+        "width-gauge-25mm.stl",
+        "width-gauge-25mm.obj",
+        "width-gauge-30mm.stl",
+        "width-gauge-30mm.obj",
+        "width-gauge-35mm.stl",
+        "width-gauge-35mm.obj",
+        "width-gauge-40mm.stl",
+        "width-gauge-40mm.obj",
+        "double-slot-routing-frame-30mm.stl",
+        "double-slot-routing-frame-30mm.obj",
+        "lunarness-parametric-width-study.scad",
+        "README.txt",
+        "LICENSE-CC-BY-4.0.txt",
+        "LICENSE-MIT.txt"
+      ]
+    }
+  ]
+}

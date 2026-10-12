@@ -1,0 +1,34 @@
+{
+  "label_date_istanbul": "2026-10-12",
+  "captured_at_utc": "2026-10-12T15:56:09.515644+00:00",
+  "records": 162,
+  "counts": {
+    "numeric_unit_pair": 16,
+    "numeric_range_with_unit": 10,
+    "route_token": 153,
+    "closure_token": 94,
+    "material_token": 159,
+    "size_option_name": 51
+  },
+  "population": "All records returned by the public products.json endpoint in this capture; page 2 returned zero. Not a complete store inventory claim.",
+  "method": "Deterministic regex indicators applied only to body_html, plus exact Size option-name presence. Theme content, reviews, linked size-guide text and images excluded.",
+  "meaning": "Indicators record literal disclosure signals. They do not establish product dimensions, adjustment bounds, completeness, safety, customer fit, material authenticity or comparative quality.",
+  "researcher_affiliation": "Lunarness, the same organization as the sampled store. This self-catalog snapshot is not a representative market study.",
+  "source_receipts": [
+    {
+      "url": "https://lunarness.com/products.json?limit=250",
+      "status": 200,
+      "sha256": "60ae531d207f2d343bf0e728ff7cc824e268e08ae704d768e6acb3f413ffee5f",
+      "bytes": 879471
+    },
+    {
+      "url": "https://lunarness.com/products.json?limit=250&page=2",
+      "status": 200,
+      "sha256": "86d8b086af0fc30d06856e218fcfdb6b803f91b45f50b1b753d8deac627fc054",
+      "bytes": 15
+    }
+  ],
+  "customer_or_human_measurements": false,
+  "raw_description_and_images_published": false,
+  "reproduce_command": "python build_catalog_signals.py; this fetches current data, so later snapshots may differ."
+}
