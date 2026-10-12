@@ -14,6 +14,18 @@
       "rows": 162,
       "license": "CC BY 4.0 data/docs, MIT software",
       "description": "Deterministic public-endpoint self-catalog audit; scope and affiliation disclosed."
+    },
+    {
+      "name": "A4/Letter paper width-comparison and fitting-record kit",
+      "file": "design/lunarness-paper-fitting-kit.zip",
+      "license": "CC BY 4.0",
+      "limits": "Original procedural work with AI assistance; not physically print-tested."
+    },
+    {
+      "name": "Parametric width gauges and double-slot routing study",
+      "file": "design/lunarness-width-routing-cad-source.zip",
+      "license": "CC BY 4.0 geometry / MIT OpenSCAD source",
+      "limits": "Original procedural work with AI assistance; not physically print-tested."
     }
   ],
   "source_context": [
@@ -111,6 +123,42 @@
       "path": "resource-wave-2026-10-12/data/lunarness-catalog-disclosure-signals-2026-10-12.zip",
       "bytes": 27665,
       "sha256": "f55a1a6189014ed0d828dd2dd9fda133589623e9f6edbf3a0091ba621e29bfef"
+    },
+    {
+      "path": "resource-wave-2026-10-12/design/lunarness-paper-fitting-kit.zip",
+      "bytes": 10508,
+      "sha256": "f9a39859e0072ea7522f1e47c2ab261f253e42b27e02cb12e98007f8175b3ac5",
+      "contents": [
+        "lunarness-paper-fitting-kit-A4.pdf",
+        "lunarness-paper-fitting-kit-Letter.pdf",
+        "lunarness-width-comparison-A4.svg",
+        "lunarness-width-comparison-Letter.svg",
+        "README.txt",
+        "LICENSE-CC-BY-4.0.txt"
+      ]
+    },
+    {
+      "path": "resource-wave-2026-10-12/design/lunarness-width-routing-cad-source.zip",
+      "bytes": 10777,
+      "sha256": "9f05bf4efc9b5be85f0d8057c49898aa17952061ed61e26d801edffc69a39327",
+      "contents": [
+        "width-gauge-20mm.stl",
+        "width-gauge-20mm.obj",
+        "width-gauge-25mm.stl",
+        "width-gauge-25mm.obj",
+        "width-gauge-30mm.stl",
+        "width-gauge-30mm.obj",
+        "width-gauge-35mm.stl",
+        "width-gauge-35mm.obj",
+        "width-gauge-40mm.stl",
+        "width-gauge-40mm.obj",
+        "double-slot-routing-frame-30mm.stl",
+        "double-slot-routing-frame-30mm.obj",
+        "lunarness-parametric-width-study.scad",
+        "README.txt",
+        "LICENSE-CC-BY-4.0.txt",
+        "LICENSE-MIT.txt"
+      ]
     }
   ]
 }
