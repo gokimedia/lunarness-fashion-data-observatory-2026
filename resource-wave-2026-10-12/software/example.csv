@@ -1,0 +1,5 @@
+record_id,route,measurement_method,layer,unit,min_length,max_length,closure,source_url
+fictional-01,paper strip loop,circumference,paper practice,cm,28,34,buckle,https://lunarness.com/pages/size-guide
+fictional-02,flat strip endpoints,flat_length,paper practice,in,12,14,overlap,https://lunarness.com/pages/size-guide
+fictional-03,marked path,path_length,unknown,mm,300,350,unknown,https://lunarness.com/pages/harness-size-calculator
+fictional-04,paper strip loop,circumference,paper practice,cm,40,30,buckle,https://lunarness.com/pages/size-guide
